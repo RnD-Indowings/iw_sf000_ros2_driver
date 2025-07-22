@@ -51,7 +51,7 @@ ros2 topic echo /sf000/range
 Manual Testing with I2C
 ```bash
 Run:
-"python3 i2c_control_rpi.py"
+"python3 i2c_connection_rpi.py"
 ```
 
 
