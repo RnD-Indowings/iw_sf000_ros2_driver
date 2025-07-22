@@ -54,6 +54,15 @@ ros2 topic echo /sf000/range
 Run:
 "python3 i2c_connection_rpi.py"
 
+Steps:
+sudo raspi-config
+# Interfacing Options -> I2C -> Enable
+sudo reboot
+sudo apt install i2c-tools
+i2cdetect -y 1
+i2cget -y 1 0x66 0x00 w
+# raw data
+
 **pySerial should be installed -- i2c should be enabled through raspi-config -- **
 ```
 
