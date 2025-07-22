@@ -10,7 +10,7 @@ This driver enables integration of the SF000 LiDAR sensor with ROS 2-based robot
 
 - **Sensor**: Lightware SF000 Series
 - **ROS 2 Compatibility**: Humble (or specify your distro)
-- **Communication**: Serial / UART
+- **Communication**: Serial / UART     -For I2C, specific code is mentioned in a different python file
 - **Message Type**: `sensor_msgs/Range`
 - **Node Name**: `sf000_lidar_node`
 
@@ -49,7 +49,7 @@ ros2 topic echo /sf000/range
 
 
 
-🔌 Manual Testing with I2C
+🔌 Manual Testing with I2C in RPI5
 ```bash
 Run:
 "python3 i2c_connection_rpi.py"
