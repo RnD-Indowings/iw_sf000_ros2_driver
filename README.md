@@ -40,13 +40,21 @@ ros2 run sf000_lidar sf000_driver
 
 ```
 
-
 🧪 Test
 ```bash
 Use rqt_graph or ros2 topic echo to visualize data:
 
 ros2 topic echo /sf000/range
 ```
+
+
+Manual Testing with I2C
+```bash
+Run:
+"python3 i2c_control_rpi.py"
+```
+
+
 👨‍💻 Maintainer
 ```bash
 Udit Ray
