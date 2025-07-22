@@ -53,6 +53,8 @@ ros2 topic echo /sf000/range
 ```bash
 Run:
 "python3 i2c_connection_rpi.py"
+
+**pySerial should be installed -- i2c should be enabled through raspi-config -- **
 ```
 
 
