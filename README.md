@@ -16,13 +16,14 @@ This driver enables integration of the SF000 LiDAR sensor with ROS 2-based robot
 
 ---
 
-## 🛠️ Installation
+## 🛠️ Installation | Building | Running 
 
 ### 1. Clone into your ROS 2 workspace
 
 ```bash
 cd ~/your_ros2_ws/src
 git clone git@github.com:RnD-Indowings/sf000_ros2_driver.git
+```bash
 
 ### 2. Build the workspace
 cd ~/your_ros2_ws
