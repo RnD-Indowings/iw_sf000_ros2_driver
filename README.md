@@ -9,7 +9,7 @@ This driver enables integration of the SF000 LiDAR sensor with ROS 2-based robot
 ## 📦 Package Overview
 
 - **Sensor**: Lightware SF000 Series
-- **ROS 2 Compatibility**: Humble (or specify your distro)
+- **ROS 2 Compatibility**: Humble
 - **Communication**: Serial / UART     -For I2C, specific code is mentioned in a different python file
 - **Message Type**: `sensor_msgs/Range`
 - **Node Name**: `sf000_lidar_node`
