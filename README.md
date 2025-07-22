@@ -65,6 +65,16 @@ i2cget -y 1 0x66 0x00 w
 i2cdump -y 1 0x66  --i2c dump 
 
 **pySerial should be installed -- i2c should be enabled through raspi-config -- **
+
+FOR this Lidar:(When you read multi-byte data (like a 16-bit distance value) from an I2C device, the order in which the bytes are sent matters. This is called Endiann)ess
+
+If the device returns big-endian data, you must combine bytes accordingly:
+dist_cm = (data[0] << 8) + data[1]  # MSB first (big-endian)
+
+If little-endian, it would be:
+dist_cm = (data[1] << 8) + data[0]  # LSB first
+
+Mismatch in endianness = incorrect distance values.
 ```
 
 
