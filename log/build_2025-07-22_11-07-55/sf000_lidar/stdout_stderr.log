@@ -1,0 +1,33 @@
+/home/udit/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+creating ../../build/sf000_lidar/sf000_lidar.egg-info
+writing ../../build/sf000_lidar/sf000_lidar.egg-info/PKG-INFO
+writing dependency_links to ../../build/sf000_lidar/sf000_lidar.egg-info/dependency_links.txt
+writing entry points to ../../build/sf000_lidar/sf000_lidar.egg-info/entry_points.txt
+writing requirements to ../../build/sf000_lidar/sf000_lidar.egg-info/requires.txt
+writing top-level names to ../../build/sf000_lidar/sf000_lidar.egg-info/top_level.txt
+writing manifest file '../../build/sf000_lidar/sf000_lidar.egg-info/SOURCES.txt'
+reading manifest file '../../build/sf000_lidar/sf000_lidar.egg-info/SOURCES.txt'
+writing manifest file '../../build/sf000_lidar/sf000_lidar.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/udit/Lightware_sf000_lidar/build/sf000_lidar/build/lib/sf000_lidar
+copying sf000_lidar/sf000_driver.py -> /home/udit/Lightware_sf000_lidar/build/sf000_lidar/build/lib/sf000_lidar
+copying sf000_lidar/__init__.py -> /home/udit/Lightware_sf000_lidar/build/sf000_lidar/build/lib/sf000_lidar
+running install
+running install_lib
+creating /home/udit/Lightware_sf000_lidar/install/sf000_lidar/lib/python3.10/site-packages/sf000_lidar
+copying /home/udit/Lightware_sf000_lidar/build/sf000_lidar/build/lib/sf000_lidar/sf000_driver.py -> /home/udit/Lightware_sf000_lidar/install/sf000_lidar/lib/python3.10/site-packages/sf000_lidar
+copying /home/udit/Lightware_sf000_lidar/build/sf000_lidar/build/lib/sf000_lidar/__init__.py -> /home/udit/Lightware_sf000_lidar/install/sf000_lidar/lib/python3.10/site-packages/sf000_lidar
+byte-compiling /home/udit/Lightware_sf000_lidar/install/sf000_lidar/lib/python3.10/site-packages/sf000_lidar/sf000_driver.py to sf000_driver.cpython-310.pyc
+byte-compiling /home/udit/Lightware_sf000_lidar/install/sf000_lidar/lib/python3.10/site-packages/sf000_lidar/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/udit/Lightware_sf000_lidar/install/sf000_lidar/share/ament_index/resource_index/packages
+copying resource/sf000_lidar -> /home/udit/Lightware_sf000_lidar/install/sf000_lidar/share/ament_index/resource_index/packages
+copying package.xml -> /home/udit/Lightware_sf000_lidar/install/sf000_lidar/share/sf000_lidar
+running install_egg_info
+Copying ../../build/sf000_lidar/sf000_lidar.egg-info to /home/udit/Lightware_sf000_lidar/install/sf000_lidar/lib/python3.10/site-packages/sf000_lidar-0.0.0-py3.10.egg-info
+running install_scripts
+Installing sf000_driver script to /home/udit/Lightware_sf000_lidar/install/sf000_lidar/lib/sf000_lidar
+writing list of installed files to '/home/udit/Lightware_sf000_lidar/build/sf000_lidar/install.log'

@@ -1,0 +1,30 @@
+[0.591s] Invoking command in '/home/udit/Lightware_sf000_lidar/src/sf000_lidar': PYTHONPATH=/home/udit/Lightware_sf000_lidar/src/build/sf000_lidar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/udit/Lightware_sf000_lidar/src/install/sf000_lidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sf000_lidar build --build-base /home/udit/Lightware_sf000_lidar/src/build/sf000_lidar/build install --record /home/udit/Lightware_sf000_lidar/src/build/sf000_lidar/install.log --single-version-externally-managed install_data
+[0.693s] /home/udit/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.693s]   warnings.warn(msg)
+[0.783s] running egg_info
+[0.798s] creating ../build/sf000_lidar/sf000_lidar.egg-info
+[0.798s] writing ../build/sf000_lidar/sf000_lidar.egg-info/PKG-INFO
+[0.798s] writing dependency_links to ../build/sf000_lidar/sf000_lidar.egg-info/dependency_links.txt
+[0.799s] writing requirements to ../build/sf000_lidar/sf000_lidar.egg-info/requires.txt
+[0.799s] writing top-level names to ../build/sf000_lidar/sf000_lidar.egg-info/top_level.txt
+[0.884s] writing manifest file '../build/sf000_lidar/sf000_lidar.egg-info/SOURCES.txt'
+[0.915s] reading manifest file '../build/sf000_lidar/sf000_lidar.egg-info/SOURCES.txt'
+[0.916s] writing manifest file '../build/sf000_lidar/sf000_lidar.egg-info/SOURCES.txt'
+[0.916s] running build
+[0.916s] running build_py
+[0.916s] creating /home/udit/Lightware_sf000_lidar/src/build/sf000_lidar/build/lib/sf000_lidar
+[0.916s] copying sf000_lidar/__init__.py -> /home/udit/Lightware_sf000_lidar/src/build/sf000_lidar/build/lib/sf000_lidar
+[0.916s] running install
+[0.919s] running install_lib
+[0.934s] creating /home/udit/Lightware_sf000_lidar/src/install/sf000_lidar/lib/python3.10/site-packages/sf000_lidar
+[0.934s] copying /home/udit/Lightware_sf000_lidar/src/build/sf000_lidar/build/lib/sf000_lidar/__init__.py -> /home/udit/Lightware_sf000_lidar/src/install/sf000_lidar/lib/python3.10/site-packages/sf000_lidar
+[0.934s] byte-compiling /home/udit/Lightware_sf000_lidar/src/install/sf000_lidar/lib/python3.10/site-packages/sf000_lidar/__init__.py to __init__.cpython-310.pyc
+[0.935s] running install_data
+[0.935s] creating /home/udit/Lightware_sf000_lidar/src/install/sf000_lidar/share/ament_index/resource_index/packages
+[0.935s] copying resource/sf000_lidar -> /home/udit/Lightware_sf000_lidar/src/install/sf000_lidar/share/ament_index/resource_index/packages
+[0.935s] copying package.xml -> /home/udit/Lightware_sf000_lidar/src/install/sf000_lidar/share/sf000_lidar
+[0.935s] running install_egg_info
+[0.951s] Copying ../build/sf000_lidar/sf000_lidar.egg-info to /home/udit/Lightware_sf000_lidar/src/install/sf000_lidar/lib/python3.10/site-packages/sf000_lidar-0.0.0-py3.10.egg-info
+[0.951s] running install_scripts
+[0.987s] writing list of installed files to '/home/udit/Lightware_sf000_lidar/src/build/sf000_lidar/install.log'
+[1.003s] Invoked command in '/home/udit/Lightware_sf000_lidar/src/sf000_lidar' returned '0': PYTHONPATH=/home/udit/Lightware_sf000_lidar/src/build/sf000_lidar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/udit/Lightware_sf000_lidar/src/install/sf000_lidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sf000_lidar build --build-base /home/udit/Lightware_sf000_lidar/src/build/sf000_lidar/build install --record /home/udit/Lightware_sf000_lidar/src/build/sf000_lidar/install.log --single-version-externally-managed install_data
