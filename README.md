@@ -56,13 +56,12 @@ Run:
 
 Steps:
 sudo raspi-config
-# Interfacing Options -> I2C -> Enable
+Path: Interfacing Options -> I2C -> Enable
 sudo reboot
 sudo apt install i2c-tools
-i2cdetect -y 1
-i2cget -y 1 0x66 0x00 w
-# raw data
-i2cdump -y 1 0x66  --i2c dump 
+i2cdetect -y 1    #--detection of registers
+i2cget -y 1 0x66 0x00 w   #-- raw data
+i2cdump -y 1 0x66  #--i2c dump 
 
 **pySerial should be installed -- i2c should be enabled through raspi-config -- **
 
