@@ -44,11 +44,15 @@ Use rqt_graph or ros2 topic echo to visualize data:
 
 ros2 topic echo /sf000/range
 ```
+👨‍💻 Maintainer
+```bash
+Udit Ray
+Email: udit.ray@indowings.com
+Org: Indo Wings Private Limited
+Website: https://www.indowings.com
+```
 
-sf000_ros2_driver/
-├── launch/
-├── src/
-├── include/
-├── config/
-├── CMakeLists.txt
-└── package.xml
+📄 License
+```bash
+This project is licensed under the MIT License.
+```
